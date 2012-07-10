@@ -9,7 +9,7 @@ use File::Spec;
 use Moose;
 use System::Wrapper;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 has 'commands' => ( is => 'rw', isa => 'ArrayRef[System::Wrapper]', required => 1 );
 has 'pipeline' => ( is => 'rw', isa => 'Bool' );
